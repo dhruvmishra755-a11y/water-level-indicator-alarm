@@ -1,0 +1,19 @@
+SMART WATER TANK MONITORING SYSTEM — CONNECTIONS
+
+HC-SR04:
+VCC  -> Arduino 5V
+GND  -> Arduino GND
+TRIG -> Arduino D9
+ECHO -> Arduino D10
+
+LEDs (one 220 ohm resistor in series with each LED):
+D2 -> resistor -> LED 1 anode (+); LED 1 cathode (-) -> GND
+D3 -> resistor -> LED 2 anode (+); LED 2 cathode (-) -> GND
+D4 -> resistor -> LED 3 anode (+); LED 3 cathode (-) -> GND
+D5 -> resistor -> LED 4 anode (+); LED 4 cathode (-) -> GND
+
+Buzzer:
+Positive (+) -> Arduino D6
+Negative (-) -> Arduino GND
+
+All grounds must be common. A battery is not required in Wokwi simulation.
